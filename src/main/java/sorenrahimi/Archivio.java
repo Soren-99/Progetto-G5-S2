@@ -6,7 +6,7 @@ import java.util.List;
 import java.util.stream.Collectors;
 
 public class Archivio implements Serializable {
-    private List<Elemento> elementi;
+    List<Elemento> elementi;
 
     public Archivio(){
         this.elementi = new ArrayList<>();
